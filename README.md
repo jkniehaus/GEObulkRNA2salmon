@@ -7,7 +7,7 @@ This pipeline was created for use on UNC's longleaf HPC. Therefore, this nextflo
 
 The expected input is a single or list of SRA number(s)  
 The expected output is a results directory with a subdirectory for each SRR number.  
-Each SRR subdirectory contains salmon output counts, which can be read into R/python for further analyses (DEG analysis, pathway enrichment etc.)  
+Each SRR subdirectory contains salmon quantification files, which can be read into R/python for further analyses (DEG analysis, pathway enrichment etc.)  
 
 Assuming apptainer is installed, the nextflow environment can be created with the following
 ```bash
