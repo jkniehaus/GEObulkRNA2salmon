@@ -1,6 +1,8 @@
 # GEObulkRNA2salmon
-This nextflow pipeline downloads bulk PE RNA-seq data from GEO, trims the fastqs for illumina index sequences, and aligns + quantifies the resulting fastq files to two separate reference genomes/annotaitons. 
-custom STAR genomes, transcript .fa files, gene annotation .gtf files, and illumina adapter sequences must be provided as parameters in the 'main.nf' pipeline file.  
+This nextflow pipeline downloads bulk PE RNA-seq data from GEO, trims the fastqs for illumina index sequences, and aligns + quantifies the resulting fastq files to two separate reference genomes/annotaitons.  
+
+Custom STAR genomes, transcript .fa files, gene annotation .gtf files, and illumina adapter sequences must be provided as parameters in the 'main.nf' pipeline file.  
+
 This pipeline was created for use on UNC's longleaf HPC. Therefore, this nextflow pipeline uses SLURM as its executor, submitting a job for each process.  
 
 The expected input is a single or list of SRA number(s)  
