@@ -1,0 +1,9 @@
+# Nextflow and output directories
+work/
+.results/
+results/
+.nextflow*
+*.sif
+*.log
+*.tar.gz
+*.zip
